@@ -1,5 +1,10 @@
+# Life + Power resources
 
-## Articles
+work-in-progress collection of resources that may be added to https://www.lifeandpowerquakerdiscernmentonabuse.com/
+
+## Collected Words + Articles
+
+### Articles
 - friends journal issues
   - 1984
   - Dec - Attonement
@@ -8,11 +13,11 @@
 - Cooper on Integrity
 - Policy documents (e.g. Jade Rockwell, Brittain YM)
 
-## Words
+### Words
 - Quaker writings
 - Bible
 
 
-TODO
-- Sarah: assemble enough stuff to create HTML prototype
-- 
+## TODO
+- assemble enough stuff to create HTML prototype (Sarah)
+- list of articles in 1984 FJ issue (Ellen)
