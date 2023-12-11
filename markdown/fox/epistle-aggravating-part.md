@@ -12,5 +12,4 @@
 
 references:
 - 	https://archive.org/stream/journalofgeorgef00foxg/journalofgeorgef00foxg_djvu.txt
-17:26:00 From Jonathan Gilbert to Everyone:
 - https://flp-assets.nyc3.digitaloceanspaces.com/en/george-fox/journal/original/Journal_of_George_Fox--original.pdf

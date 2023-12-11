@@ -5,6 +5,8 @@
 * [Accountability: origins of "walk cheerfully"](fox/fox-on-accountability.md)
 
 
+# Policy 
+* [Wise as Serpents, Harmless as Doves: A Spiritual Approach to Abuse Prevention in Friends Meetings](policy/wise-as-serpents-policy-guidance.md)
 
 
 
