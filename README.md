@@ -4,13 +4,15 @@ work-in-progress collection of resources that may be added to https://www.lifean
 
 ## Collected Words + Articles
 
-### Articles
-- friends journal issues
+### Friends journal issues
+subject to agreement with the Friends Journal publication
   - [Oct 1984: Trouble in the Family](https://www.friendsjournal.org/wp-content/uploads/emember/downloads/1984/HC12-50764.pdf)
-  - [Dec 2022: Attonement](https://www.friendsjournal.org/issue-category/2022/atonement/)
-- zotero collection
-  - Judy Brutz 1984 research
-- [Cooper on Integrity](https://pendlehill.org/product/testimony-integrity-religious-society-friends/)
+  - Mar 2022: Saftey in Meetings ([web](https://www.friendsjournal.org/issue-category/2022/safety-in-meetings/), [pdf](https://www.friendsjournal.org/private/FJ-2022-03.PDF))
+  - Dec 2022: Attonement ([web](https://www.friendsjournal.org/issue-category/2022/atonement/), [pdf](https://www.friendsjournal.org/private/FJ-2022-12.PDF))
+
+### Other articles & publications
+  - zotero collection (includes Judy Brutz 1984 research)
+  - [Cooper on Integrity](https://pendlehill.org/product/testimony-integrity-religious-society-friends/)
 
 
 ### Policy documents
