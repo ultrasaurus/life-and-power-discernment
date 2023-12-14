@@ -1,4 +1,4 @@
-
+# Inspirational Material
 
 ## George Fox
 * [Spirit-led Confrontation](fox/epistle-aggravating-part.md)
