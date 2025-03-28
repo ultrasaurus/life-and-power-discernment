@@ -1,26 +1,23 @@
 #! /bin/sh
 
-INDEX_FILE="markdown/index.md"
-echo $INDEX_FILE
+BUILD_FILE="website/source.md"
+echo $BUILD_FILE
 
 DATE_STRING=$(date +"%a, %b %d %Y - %I:%M %p")
 echo $DATE_STRING
 
-cat <<EOT >> $INDEX_FILE
+cat <<EOT >> $BUILD_FILE
 
 &nbsp;
 
-&nbsp;
-
-&nbsp;
-
----
 \`\`\`
 $DATE_STRING
 branch=$BRANCH_NAME
 $GITHUB_SHA
 \`\`\`
+---
+&nbsp;
 EOT
 
 
-webgenr -o gh-pages/_website
+altwebgen build -o gh-pages/_website

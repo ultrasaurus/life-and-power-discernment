@@ -34,15 +34,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Build webgenr
+      - name: Build altwebgen
         run: |
-          echo "building from ultrasaurus/webgenr"
-          git clone https://github.com/ultrasaurus/webgenr.git
-          cd webgenr
+          echo "building from ultrasaurus/altwebgen"
+          git clone --depth 1 --branch 0.3.0 https://github.com/ultrasaurus/altwebgen.git
+          cd altwebgen
 
-          echo "using branch: audio-bug"
-          git fetch origin audio-bug
-          git checkout origin/audio-bug
+          echo "using altwbgen version: 0.3.0"
           cargo install --path .
 
       - name: Checkout repo
