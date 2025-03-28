@@ -1,26 +1,32 @@
 #! /bin/sh
 
-INDEX_FILE="markdown/index.md"
-echo $INDEX_FILE
+DEST=gh-pages/_website
+mkdir -p $DEST
+
+SOURCE="website/source"
+
+cp gh-pages/_site.yaml $SOURCE/.
+
+BUILD_FILE="$SOURCE/build.md"
+echo $BUILD_FILE
 
 DATE_STRING=$(date +"%a, %b %d %Y - %I:%M %p")
 echo $DATE_STRING
 
-cat <<EOT >> $INDEX_FILE
+cat <<EOT >> $BUILD_FILE
 
 &nbsp;
 
-&nbsp;
-
-&nbsp;
-
----
 \`\`\`
 $DATE_STRING
 branch=$BRANCH_NAME
 $GITHUB_SHA
 \`\`\`
+---
+&nbsp;
 EOT
 
-
-webgenr -o gh-pages/_website
+(cd website;
+echo ============ building website to ../$DEST;
+echo ============ `pwd`;
+altwebgen -o ../$DEST build )
