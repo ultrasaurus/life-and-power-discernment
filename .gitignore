@@ -1,3 +1,6 @@
 _website/
 .dist/
 .build/
+
+# auto-generated file
+website/source/build.md  
