@@ -1,3 +1,73 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif
+}
+
+body,
+html {
+    height: 100%;
+    font-size: 1rem;
+    --header-large-font-size: 2rem;
+    --highlight-color: #bfb1c4;
+}
+
+.section-highlight {
+    background-color: var(--highlight-color);
+    padding: 64px 16px;
+}
+
+.section-dark {
+    background-color: black;
+    color: var(--highlight-color);
+    padding: 64px 16px;
+}
+
+.section-light {
+    background-color: white;
+    color: black;
+    padding: 64px 16px;
+}
+
+
+
+
+
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+#myNavbar {
+    background-color: #fffd;
+    padding: 2vw 4vw;
+}
+
+.page-header .title {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration-line: none;
+}
+
+.page-header .subtitle {
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration-line: none;
+}
+
+.header-menu-item {
+    font-size: 1.2rem;
+    overflow-wrap: break-word;
+    text-decoration-line: none;
+    font-weight: 300;
+    padding: 0vw 2vw;
+}
+
 
 .content {
     max-width: 700px;
@@ -9,3 +79,5 @@
     font-size: 1.6rem;
     font-weight: 500;
 }
+
+
