@@ -1,0 +1,30 @@
+<!-- Navbar (sit on top) -->
+<div class="w3-top page-header">
+    <div class="w3-card" id="myNavbar" style="position:relative">
+        <div>
+            <a class="title" href="{{baseurl}}">Life and Power</a><br />
+            <a class="subtitle" href="{{baseurl}}/">Quaker Discernment on Abuse</a>
+        </div>
+
+        <!-- Right-sided navbar links -->
+        <div class="w3-hide-small" style="position:absolute; right:2vw; top:5vw">
+            <a href="{{baseurl}}/resources" class="w3-bar-item header-menu-item">Resources</a>
+            <a href="{{baseurl}}/about" class="w3-bar-item header-menu-item">About Us</a>
+        </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+            onclick="w3_open()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none"
+    id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+    <a href="{{baseurl}}" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+    <a href="{{baseurl}}resources" onclick="w3_close()" class="w3-bar-item w3-button">Resources</a>
+    <a href="{{baseurl}}about" onclick="w3_close()" class="w3-bar-item w3-button">About Us</a>
+</nav>

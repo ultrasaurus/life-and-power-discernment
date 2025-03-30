@@ -3,8 +3,8 @@ title: Common Testimony
 layout: reference
 ---
 
-## Coming Together for Continuing Revelation:
-## Common Testimony on Abuse
+# Coming Together for Continuing Revelation:
+# Common Testimony on Abuse
     
 **Query:** _Do we live in the virtue of that life and power that takes away the occasion of child abuse, as well as intimate partner abuse and all forms of violence within the family and community?_
     
