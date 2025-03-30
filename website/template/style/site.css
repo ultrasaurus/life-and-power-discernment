@@ -13,17 +13,23 @@ html {
     height: 100%;
     font-size: 1rem;
     --header-large-font-size: 2rem;
-    --highlight-color: #bfb1c4;
+    --highlight-spiritual: #bfb1c4; /* thistle */
+    --highlight-meeting: #9DAABE; /* blue grey */
 }
 
-.section-highlight {
-    background-color: var(--highlight-color);
+.section-highlight-spiritual {
+    background-color: var(--highlight-spiritual);
+    padding: 64px 16px;
+}
+
+.section-highlight-meeting {
+    background-color: var(--highlight-meeting);
     padding: 64px 16px;
 }
 
 .section-dark {
     background-color: black;
-    color: var(--highlight-color);
+    color: var(--highlight-meeting);
     padding: 64px 16px;
 }
 

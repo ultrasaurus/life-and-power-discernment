@@ -2,9 +2,18 @@
 
 <body>
 {{> _navbar }}
-<div class="w3-container section-light" >
+<div class="w3-container section-highlight-meeting" >
     <!-- extra spacer for under header -->
 </div>
+<div class="w3-container section-highlight-meeting reference">
+    <div class="content">
+
+    <!-- highlight area -->
+    <h1>{{title}}</h1>
+    <p style="font-size: 1.2rem"><b>{{intro-heading}}</b>{{intro-text}}</p>
+</div>
+</div>
+
 <div class="w3-container section-light reference">
 <div class="content">
 {{{ body }}}

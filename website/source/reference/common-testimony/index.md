@@ -1,13 +1,14 @@
 ---
-title: Common Testimony
+title: |
+    Coming Together for Continuing Revelation:
+    Common Testimony on Abuse
 layout: reference
+intro-heading: |
+    Query:  
+intro-text:  |
+    Do we live in the virtue of that life and power that takes away the occasion of child abuse, as well as intimate partner abuse and all forms of violence within the family and community?
 ---
 
-# Coming Together for Continuing Revelation:
-# Common Testimony on Abuse
-    
-**Query:** _Do we live in the virtue of that life and power that takes away the occasion of child abuse, as well as intimate partner abuse and all forms of violence within the family and community?_
-    
 **Common Testimony:**
 
 The first thing I noticed in hearing the query...I was surprised that I felt terrified. I wondered, “Am I going to do this right? Do I have the right answers?” I saw in this query a piece of Quaker culture that is problematic. We have ways of doing things; here, when you don't do things in a Quakerly way, there are hurtful consequences.
@@ -66,6 +67,6 @@ had our son and I looked at him at 18 months old in his cute overalls and I felt
 him to have a childhood full of his mother's anger. So this was the beginning of my recovery and sobriety.
 
 I wonder why I stayed a Quaker. It is because when I engage with faith and practice, I regularly experience communion
-with the divine._
+with the divine.
 
 </div>
