@@ -48,10 +48,22 @@ html {
 }
 
 .section-light .highlight {
-    border-radius: 1rem;
-    border: solid 2px;
+    /* border-radius: 0px 0px 1rem 1rem; */
+    /* border-bottom: solid 2px; */
     border-color: var(--highlight-color);
 }
+
+.section-light .highlight .top {
+    border-radius: 1rem 1rem 0px 0px;
+    background-color: var(--highlight-color);
+    overflow: hidden;
+    padding: 0px 1.5rem;
+}
+
+.section-light .highlight .bottom {
+    padding: 0px 1.5rem 1rem 1.5rem;
+}
+
 
 .w3-bar .w3-button {
     padding: 16px;
