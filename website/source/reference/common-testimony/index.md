@@ -9,6 +9,8 @@ intro-text:  |
     Do we live in the virtue of that life and power that takes away the occasion of child abuse, as well as intimate partner abuse and all forms of violence within the family and community?
 ---
 
+See also: [Introduction & How to Use the Common Testimony](/reference/common-testimony/intro-letter.html)
+
 **Common Testimony:**
 
 The first thing I noticed in hearing the query...I was surprised that I felt terrified. I wondered, “Am I going to do this right? Do I have the right answers?” I saw in this query a piece of Quaker culture that is problematic. We have ways of doing things; here, when you don't do things in a Quakerly way, there are hurtful consequences.

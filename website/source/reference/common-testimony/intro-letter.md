@@ -9,7 +9,7 @@ intro-text: A letter of introduction by Windy Cooler, including background conte
 
 Dear Friends,
 
-After two years of deep listening, the Life and Power: Quaker Discernment on Abuse project, for which I served as convener, is releasing this “common testimony.” This common testimony is to be used by your meeting in a process of continuing revelation, the process for which will be explained in this letter. You can find the common testimony here: Coming Together for Continuing Revelation: Common Testimony on Abuse
+After two years of deep listening, the Life and Power: Quaker Discernment on Abuse project, for which I served as convener, is releasing this “common testimony.” This common testimony is to be used by your meeting in a process of continuing revelation, the process for which will be explained in this letter. You can find the common testimony here: [Coming Together for Continuing Revelation: Common Testimony on Abuse](./index.html)
 
 # What is the Common Testimony?
 
