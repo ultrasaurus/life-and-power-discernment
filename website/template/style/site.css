@@ -13,18 +13,26 @@ html {
     height: 100%;
     font-size: 1rem;
     --header-large-font-size: 2rem;
-    --highlight-spiritual: #bfb1c4; /* thistle */
-    --highlight-meeting: #9DAABE; /* blue grey */
 }
 
-.section-highlight-spiritual {
-    background-color: var(--highlight-spiritual);
+.spiritual {
+    --highlight-color: #bfb1c4; /* thistle */;
+}
+
+.meeting {
+    --highlight-color: #9DAABE; /* blue grey */
+}
+
+.section-highlight {
     padding: 64px 16px;
 }
 
-.section-highlight-meeting {
-    background-color: var(--highlight-meeting);
-    padding: 64px 16px;
+.section-highlight.spiritual {
+    background-color: var(--highlight-color);
+}
+
+.section-highlight.meeting {
+    background-color: var(--highlight-color);
 }
 
 .section-dark {
@@ -39,9 +47,11 @@ html {
     padding: 64px 16px;
 }
 
-
-
-
+.section-light .highlight {
+    border-radius: 1rem;
+    border: solid 2px;
+    border-color: var(--highlight-color);
+}
 
 .w3-bar .w3-button {
     padding: 16px;
