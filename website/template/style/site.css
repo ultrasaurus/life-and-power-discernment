@@ -16,11 +16,14 @@ html {
 }
 
 .spiritual {
-    --highlight-color: #bfb1c4; /* thistle */;
+    --highlight-color: #bfb1c4; /* thistle */
+    --highlight-dark: #472836; /* eggplant */;
 }
+
 
 .meeting {
     --highlight-color: #9DAABE; /* blue grey */
+    --highlight-dark: #2E5266; /* charcoal blue */
 }
 
 .section-highlight {
@@ -37,7 +40,7 @@ html {
 
 .section-dark {
     background-color: black;
-    color: var(--highlight-meeting);
+    color: var(--highlight-color);
     padding: 64px 16px;
 }
 
@@ -45,6 +48,13 @@ html {
     background-color: white;
     color: black;
     padding: 64px 16px;
+}
+
+.section-light h2 {
+    font-size: 24px;
+}
+.section-light h3 {
+    color: var(--highlight-dark);
 }
 
 .section-light .highlight {
@@ -61,7 +71,7 @@ html {
 }
 
 .section-light .highlight .bottom {
-    padding: 0px 1.5rem 1rem 1.5rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
 
