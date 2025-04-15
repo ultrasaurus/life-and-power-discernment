@@ -9,7 +9,10 @@
     <div class="content">
 
     <!-- highlight area -->
-    <h1>{{title}}</h1>
+    {{#each (split title)}}
+        <h1>{{ this }}</h1>
+    {{/each}}
+
     <p style="font-size: 1.2rem"><b>{{intro-heading}}</b>{{intro-text}}</p>
 </div>
 </div>
