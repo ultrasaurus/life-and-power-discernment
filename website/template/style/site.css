@@ -15,6 +15,12 @@ html {
     --header-large-font-size: 2rem;
 }
 
+.page-header .logo {
+    height: 120px;
+    margin-top: -20px;
+    margin-left: -40px;
+    margin-right: 10px
+}
 .spiritual {
     --highlight-color: #bfb1c4; /* thistle */
     --highlight-dark: #472836; /* eggplant */;
@@ -98,6 +104,18 @@ html {
     text-decoration-line: none;
 }
 
+/* custom sizes for small screens */
+@media screen and (max-width: 600px) {
+    .page-header .subtitle {
+        font-size: 1rem;
+    }
+    .page-header .logo {
+        height: 80px;
+        margin-top: -10px;
+        margin-left: -0px;
+        /* margin-right: 10px */
+    }
+}
 .header-menu-item {
     font-size: 1.2rem;
     overflow-wrap: break-word;
