@@ -32,6 +32,16 @@ html {
     --highlight-dark: #2E5266; /* charcoal blue */
 }
 
+a {
+    color: var(--highlight-dark);
+}
+
+a:hover {
+    font-weight: 500;
+    text-decoration: none; 
+}
+
+
 .section-highlight {
     padding: 64px 16px;
 }
