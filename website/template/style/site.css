@@ -41,6 +41,14 @@ a:hover {
     text-decoration: none; 
 }
 
+nav.section a {
+    text-decoration: none;
+}
+nav.section {
+    position:fixed;
+    left:0;
+    top:140px;
+}
 
 .section-highlight {
     padding: 64px 16px;
