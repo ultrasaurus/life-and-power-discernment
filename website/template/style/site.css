@@ -34,7 +34,7 @@ html {
 .meeting {
     --highlight-color: #9DAABE; /* blue grey */
     --highlight-medium: #7286A2; /* slate grey */
-    --highlight-dark: #596D88; /* dark slate blue */
+    --highlight-dark: #3d4756; /* deep navy */
 }
 
 a {
@@ -90,6 +90,7 @@ nav.section a.w3-bar-item[active] {
 
 .section-light h2 {
     font-size: 24px;
+    color: var(--highlight-dark);
 }
 .section-light h3 {
     color: var(--highlight-dark);
