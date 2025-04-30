@@ -1,0 +1,23 @@
+
+{{> _navbar }}
+
+<div class="w3-container section-highlight">
+    <!-- extra spacer for under header -->
+</div>
+<div class="w3-container section-highlight reference">
+    <div class="content">
+
+        <!-- highlight area -->
+        {{#each (split title)}}
+        <h1>{{ this }}</h1>
+        {{/each}}
+
+        <p style="text-align:center;font-size: 1.2rem"><b>{{intro-heading}}</b>{{intro-text}}</p>
+    </div>
+</div>
+
+<div class="w3-container section-light reference">
+    <div class="content">
+        {{{ body }}}
+    </div>
+</div>

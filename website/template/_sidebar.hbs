@@ -1,7 +1,7 @@
 {{!-- hard coded for common testimony TODO: Parameterize to work for any section --}}
-<nav class="section w3-bar-block w3-black" style="width:220px">
-    <a class="w3-bar-item" href="{{baseurl}}/reference/common-testimony/intro-letter.html">Introduction</a>
-    <a class="w3-bar-item" href="{{baseurl}}/reference/common-testimony">Common Testimony</a>
-    <a class="w3-bar-item" href="">How do I use this?</a>
-    <a class="w3-bar-item" href="">Grattitude</a>
+<nav class="section w3-bar-block" style="width:220px">
+     <a class="w3-bar-item" {{#if intro}}active{{/if}} href="{{baseurl}}/reference/common-testimony/intro-letter.html">Introduction</a>
+    <a class="w3-bar-item" {{#if testimony}}active{{/if}} href="{{baseurl}}/reference/common-testimony">Common Testimony</a>
+    <a class="w3-bar-item" {{#if howto}}active{{/if}} href="{{baseurl}}/reference/common-testimony/how-to.html">How do I use this?</a>
+    <a class="w3-bar-item" {{#if gratitude}}active{{/if}} href="{{baseurl}}/reference/common-testimony/gratitude.html">Gratitude</a>
 </nav>
