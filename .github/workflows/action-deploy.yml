@@ -37,7 +37,7 @@ jobs:
       - name: Build altwebgen
         run: |
           echo "building from ultrasaurus/altwebgen"
-          VERSION=v0.3.3
+          VERSION=v0.4.0
           git clone --depth 1 --branch $VERSION https://github.com/ultrasaurus/altwebgen.git
           cd altwebgen
 
