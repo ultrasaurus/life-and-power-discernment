@@ -29,4 +29,4 @@ EOT
 (cd website;
 echo ============ building website to ../$DEST;
 echo ============ `pwd`;
-altwebgen -o ../$DEST build )
+altwebgen --prefix life-and-power-discernment -o ../$DEST build )
