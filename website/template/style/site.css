@@ -36,12 +36,17 @@ html {
 }
 
 /* teal #82BAB1 */
+/* YlMn Blue #485696 */
+/* space cadet #283053 */
 
+/* slate grey #7286A*/
+/* deep navy #3d4756 */
 .meeting {
-    --highlight-color: #82BAB1; /* blue grey */
-    --highlight-medium: #7286A2; /* slate grey */
-    --highlight-dark: #3d4756; /* deep navy */
+    --highlight-color: #82BAB1; /* teal */
+    --highlight-medium: #485696; /* YlMn Blue */
+    --highlight-dark: #283053; /* space cadet */
 }
+
 
 
 /* pale green # C0DFC4*/
