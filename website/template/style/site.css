@@ -25,17 +25,36 @@ html {
     margin-left: -40px;
     margin-right: 10px
 }
+
+
+/* #bfb1c4; thistle */
+/* #C3ACB1; rose quartz */
 .spiritual {
-    --highlight-color: #bfb1c4; /* thistle */
+    --highlight-color: #D1B3C2; /* alt thistle */
+    
     --highlight-dark: #472836; /* eggplant */;
 }
 
+/* teal #82BAB1 */
 
 .meeting {
-    --highlight-color: #9DAABE; /* blue grey */
+    --highlight-color: #82BAB1; /* blue grey */
     --highlight-medium: #7286A2; /* slate grey */
     --highlight-dark: #3d4756; /* deep navy */
 }
+
+
+/* pale green # C0DFC4*/
+/* pale blue E3ECE4*/
+.spot {
+    --highlight-color: #E3ECE4;  
+    --highlight-medium: #7286A2;
+        /* slate grey */
+    --highlight-dark: #3d4756;
+    /* deep navy */
+}
+
+
 
 a {
     color: var(--highlight-dark);
@@ -66,6 +85,10 @@ nav.section a.w3-bar-item[active] {
 }
 .section-highlight {
     padding: 64px 16px;
+}
+
+.spot .section-highlight {
+    background-color: var(--highlight-color);
 }
 
 .spiritual .section-highlight {
@@ -130,6 +153,9 @@ nav.section a.w3-bar-item[active] {
     text-decoration-line: none;
 }
 
+strong {
+    font-weight: 500;
+}
 .page-header .subtitle {
     font-size: 1.6rem;
     font-style: normal;
