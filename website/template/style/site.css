@@ -69,6 +69,24 @@ a {
     color: var(--highlight-dark);
 }
 
+footer {
+    position: relative;
+    height: 200px;
+}
+footer p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    margin: 0px;
+    text-align: center;
+    width: 100%
+}
+
+footer a {
+    color: #eaeaea;
+}
+
 a:hover {
     font-weight: 500;
     text-decoration: none; 
