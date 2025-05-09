@@ -8,6 +8,10 @@ h6 {
     font-family: "Poppins", sans-serif
 }
 
+.w3-xxlarge-vw {
+    font-size: 3.2vw;
+}
+
 body,
 html {
     height: 100%;
@@ -169,7 +173,7 @@ strong {
 }
 
 /* custom sizes for small screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
     .page-header .subtitle {
         font-size: 1rem;
     }
