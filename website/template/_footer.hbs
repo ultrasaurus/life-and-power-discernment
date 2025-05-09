@@ -1,0 +1,47 @@
+<!-- Footer -->
+<footer class="w3-black w3-padding-64" style="background-image: url('{{baseurl}}/images/life-and-power-logo-large.png');
+    background-position: 50% 22%;
+    /* Make the background image cover the area of the <div>, and clip the excess */
+    background-size: cover;">
+
+    <div class="w3-container">
+        <div class="w3-row-padding">
+            <p>Logo by <a href="https://www.mandyford.co/">Mandy Ford</a></p>
+            <p>Major support from <a href="https://www.odyssey-impact.org/">Odyssey Impact</a>, New England Yearly
+                Meeting, and Obadiah Brown’s Benevolent Fund.</p>
+        </div>
+    </div>
+    {{!-- <div class="w3-xlarge w3-section">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa-brands fa-mastodon w3-hover-opacity"></i>
+        <i class="fa-brands fa-bluesky w3-hover-opacity"></i>
+        <i class="fa fa-envelope w3-hover-opacity"></i>
+    </div> --}}
+</footer>
+
+<script>
+    // Modal Image Gallery
+    function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+    }
+
+
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+    var mySidebar = document.getElementById("mySidebar");
+
+    function w3_open() {
+        if (mySidebar.style.display === 'block') {
+            mySidebar.style.display = 'none';
+        } else {
+            mySidebar.style.display = 'block';
+        }
+    }
+
+    // Close the sidebar with the close button
+    function w3_close() {
+        mySidebar.style.display = "none";
+    }
+</script>
