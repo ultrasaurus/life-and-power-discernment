@@ -1,0 +1,67 @@
+name: Deploy to Pages Branch
+
+on:
+  push:
+    branches: [ "main", "deploy" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+env:
+  CARGO_TERM_COLOR: always
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+
+# Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+permissions:
+  pages: write      # to deploy to Pages
+  id-token: write   # to verify the deployment originates from an appropriate source
+
+jobs:
+
+  # build webgenr and examples
+  build-and-deploy:
+    name: Running build...
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Build altwebgen
+        run: |
+          echo "building from ultrasaurus/altwebgen"
+          VERSION=v0.4.1
+          git clone --depth 1 --branch $VERSION https://github.com/ultrasaurus/altwebgen.git
+          cd altwebgen
+
+          echo "using altwbgen version: $VERSION"
+          cargo install --path .
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Build website
+        run: |
+          export BRANCH_NAME=${{ github.ref_name }}
+          source gh-pages/build.sh
+          pwd
+          ls -R1 gh-pages
+          echo "----------------------------"
+          cat .git/config
+          echo "----------------------------"
+          cp -r /gh-pages/_website release
+          git add release
+          git stash
+          git co pages
+          g stash apply
+          git push origin pages
+
+
+
