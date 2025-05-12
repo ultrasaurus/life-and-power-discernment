@@ -70,7 +70,9 @@ jobs:
           cat .git/config
           echo "----------------------------"
           mv .pages/_website release
+          cp .pages/flare.sh .
           git add release
+          git add flare.sh
           git stash
           git fetch origin pages
           git checkout -b pages origin/pages
