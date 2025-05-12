@@ -69,7 +69,7 @@ jobs:
         run: |
           cat .git/config
           echo "----------------------------"
-          cp -r .pages/_website release
+          mv .pages/_website release
           git add release
           git stash
           git fetch origin pages
