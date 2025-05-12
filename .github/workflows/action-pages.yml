@@ -72,7 +72,7 @@ jobs:
           mv .pages/_website release
           cp .pages/flare.sh .
           git add release
-          git add flash.sh
+          git add flare.sh
           git stash
           git fetch origin pages
           git checkout -b pages origin/pages
