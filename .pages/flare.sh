@@ -2,7 +2,13 @@
 # deploy on CloudFlare
 
 # create robots.txt
-cat <<EOT >> "./release/robots.txt"
+if [ "$CF_PAGES_BRANCH" != "flare" ]; then
+
+cat << DOC > ./release/robots.txt
 User-agent: *
 Disallow: /
-EOT
+DOC
+
+fi
+
+
