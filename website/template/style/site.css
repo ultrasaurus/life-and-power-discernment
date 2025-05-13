@@ -190,6 +190,11 @@ strong {
     text-decoration-line: none;
 }
 
+
+.topspacer {
+    width: 100%;
+    height: calc(3.6rem*1.5 + 4vw);
+}
 /* custom sizes for small screens */
 @media screen and (max-width: 640px) {
     .page-header .subtitle {
@@ -200,6 +205,10 @@ strong {
         margin-top: -10px;
         margin-left: -0px;
         /* margin-right: 10px */
+    }
+    .topspacer {
+        width: 100%;
+        height: calc(3rem*1.5 + 4vw);
     }
 }
 .header-menu-item {
@@ -225,4 +234,35 @@ strong {
 
 .ref {
     padding: 10px 40px;
+}
+
+.profile {
+    margin: 0px;
+    top: 100px;
+    width: 100%;
+}
+
+.profile .maintext {
+    width: 50vw;
+    padding: 5vw;
+}
+
+.profile img {
+    width: 50vw;
+    float: right;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 640px) {
+    .profile img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position:0px -50px;
+        float: none;
+    }
+    .profile .maintext {
+        width: 100%;
+        padding: 5vw;
+    }
 }
