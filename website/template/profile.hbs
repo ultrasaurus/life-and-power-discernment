@@ -5,7 +5,16 @@
     <div class="topspacer">
         <!-- takes up vertical space of page header -->
     </div>
-    <img     width="958px" height="960px" src="{{ photo_url }}"/>
+    <img     width="{{#if width}}
+                    {{width}}
+                    {{else}}
+                    454px
+                    {{/if}}" 
+            height="{{#if height}}
+                    {{height}}
+                    {{else}}
+                    960px
+                    {{/if}}" src="{{ photo_url }}"/>
     <div class="maintext">
         {{{ body }}}
     </div>
