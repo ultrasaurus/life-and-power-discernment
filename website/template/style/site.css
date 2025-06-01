@@ -194,6 +194,7 @@ strong {
 .topspacer {
     width: 100%;
     height: calc(3.6rem*1.5 + 4vw);
+    background-color: var(--highlight-color);
 }
 /* custom sizes for small screens */
 @media screen and (max-width: 640px) {
