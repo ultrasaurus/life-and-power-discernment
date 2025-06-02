@@ -65,6 +65,11 @@ jobs:
         shell: bash      
         run  : echo "SHORT_SHA=`git rev-parse --short HEAD`" >> $GITHUB_ENV
 
+      - name: Add COMMIT_MSG Environment Variable
+        id   : commit-msg
+        shell: bash      
+        run  : echo "COMMIT_MSG=`git show -s --format=%s`" >> $GITHUB_ENV
+
       - name: Pages
         run: |
           cat .git/config
@@ -84,7 +89,7 @@ jobs:
           echo "------ get ready to commit------"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "pages deploy $SHORT_SHA"
+          git commit -m "pages deploy $SHORT_SHA $COMMIT_MSG"
           git push origin pages
           echo "------- Pages: done---------"
 
