@@ -93,6 +93,11 @@ a:hover {
     text-decoration: none; 
 }
 
+.section-content {
+    max-width: 700px;
+    margin: auto;
+}
+
 nav.section a {
     text-decoration: none;
     color: #eaeaea;
@@ -102,10 +107,17 @@ nav.section {
     position:fixed;
     background-color: var(--highlight-medium);
     left:0;
-    top:140px;
+    top:var(--nav-height);
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 200px;
 }
 
+@media screen and (max-width: 900px) {
+    .section-content {
+        padding-left: 180px !important;
+        margin: 0px;
+    }
+}
 
 
 nav.section a.w3-bar-item[active] {
@@ -227,7 +239,10 @@ strong {
     background-color: var(--highlight-color);
 }
 /* custom sizes for small screens */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 860px) {
+    body, html {
+        --nav-height: calc(3rem*1.5 + 4vw);
+    }
     .page-header .subtitle {
         font-size: 1rem;
     }
@@ -239,7 +254,7 @@ strong {
     }
     .topspacer {
         width: 100%;
-        height: calc(3rem*1.5 + 4vw);
+        height: var(--nav-height);
     }
 }
 .header-menu-item {
