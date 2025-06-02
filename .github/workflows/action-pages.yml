@@ -89,7 +89,7 @@ jobs:
           echo "------ get ready to commit------"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "pages deploy $SHORT_SHA $COMMIT_MSG"
+          git commit -m "$SHORT_SHA to pages: $COMMIT_MSG"
           git push origin pages
           echo "------- Pages: done---------"
 
