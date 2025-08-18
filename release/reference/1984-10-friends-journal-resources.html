@@ -19,26 +19,34 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top page-header">
     <div class="w3-card" id="myNavbar" style="position:relative">
-        <a href="/"><img src="/images/life-and-power-logo-small.png" class="w3-left logo w3-image"/></a>
-        <div>
-            <a class="title" href="/">Life and Power</a><br />
-            <a class="subtitle" href="/">Quaker Discernment on Abuse</a>
-        </div>
-
-        <!-- Right-sided navbar links -->
-        <div class="w3-hide-small" style="position:absolute; right:2vw; top:5vw">
-            <a href="/resources" class="w3-bar-item header-menu-item">Resources</a>
-            <a href="/about" class="w3-bar-item header-menu-item">About Us</a>
-            <a href="/contact" class="w3-bar-item header-menu-item">Get In Touch</a>
-        </div>
+        <div style="display:flex">
+            <a href="/" style="flex-shrink: 0">
+                <img src="/images/life-and-power-logo-small.png" class="w3-left logo w3-image"/>
+            </a>
+            <div style="flex-shrink: 0">
+                <a class="title" href="/">Life and Power</a><br />
+                <a class="subtitle" href="/">Quaker Discernment on Abuse</a>
+            </div>
+            <!-- Right-sided navbar links -->
+            <div class="w3-hide-small nav-menu">
+                <div style="float:right">
+                <a href="/resources" class="w3-bar-item header-menu-item">Resources</a>
+                <a href="/events" class="w3-bar-item header-menu-item">Events</a>
+                </div>
+                <div style="float:right">
+                <a href="/about" class="w3-bar-item header-menu-item">About</a>
+                <a href="/contact" class="w3-bar-item header-menu-item">Contact</a>
+                </div>
+            </div>
         
-        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-        <a href="javascript:void(0)" style="position:absolute; right:2vw; top:3vw" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
-            onclick="w3_open()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
-</div>
+            <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+            <a href="javascript:void(0)" style="position:absolute; right:2vw; top:3vw" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+                onclick="w3_open()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div> <!-- myNavbar -->
+</div> <!-- page-header -->
 
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none"
@@ -46,8 +54,9 @@
     <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
     <a href="" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
     <a href="/resources" onclick="w3_close()" class="w3-bar-item w3-button">Resources</a>
-    <a href="/about" onclick="w3_close()" class="w3-bar-item w3-button">About Us</a>
-    <a href="/contact" onclick="w3_close()" class="w3-bar-item w3-button">Get In Touch</a>
+    <a href="/events" onclick="w3_close()" class="w3-bar-item w3-button">Events</a>
+    <a href="/about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+    <a href="/contact" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
 </nav>
     <div class="w3-container section-highlight">
         <!-- extra spacer for under header -->
