@@ -127,6 +127,9 @@ nav.section a.w3-bar-item[active] {
 .nav-menu {
     flex-grow: 1;
     margin: auto;
+    display: flex; /* Establishes a flex container */
+    flex-wrap: wrap; /* Allows items to wrap onto new lines */
+
 }
 
 
