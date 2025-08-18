@@ -123,6 +123,13 @@ nav.section {
 nav.section a.w3-bar-item[active] {
     background-color: var(--highlight-dark);
 }
+
+.nav-menu {
+    flex-grow: 1;
+    margin: auto;
+}
+
+
 .section-highlight {
     padding: 64px 16px;
 }
@@ -184,6 +191,7 @@ nav.section a.w3-bar-item[active] {
 #myNavbar {
     background-color: #fffd;
     padding: 2vw 4vw;
+    height: var(--nav-height);
 }
 
 .page-header .title {
@@ -238,6 +246,14 @@ strong {
 .topspacer.highlight-color {
     background-color: var(--highlight-color);
 }
+
+.header-menu-item {
+    font-size: 1.2rem;
+    overflow-wrap: break-word;
+    text-decoration-line: none;
+    font-weight: 300;
+    padding: 0vw 1vw;
+}
 /* custom sizes for small screens */
 @media screen and (max-width: 860px) {
     body, html {
@@ -256,13 +272,9 @@ strong {
         width: 100%;
         height: var(--nav-height);
     }
-}
-.header-menu-item {
-    font-size: 1.2rem;
-    overflow-wrap: break-word;
-    text-decoration-line: none;
-    font-weight: 300;
-    padding: 0vw 2vw;
+    .header-menu-item {
+        font-size: 1rem;
+    }
 }
 
 
