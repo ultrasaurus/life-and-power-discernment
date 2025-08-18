@@ -271,6 +271,11 @@ strong {
     margin: auto;
 }
 
+.events-container {
+    max-width: 900px;
+    margin: auto;
+}
+
 .reference h1 {
     text-align: center;
     font-size: 1.6rem;
