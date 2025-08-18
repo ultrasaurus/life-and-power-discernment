@@ -1,4 +1,4 @@
-name: CloudFlare Push to Production
+name: Push to CloudFlare Production
 
 on:
   push:
