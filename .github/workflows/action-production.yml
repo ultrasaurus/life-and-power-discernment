@@ -3,7 +3,6 @@ name: Push to CloudFlare Production
 on:
   push:
     branches: [ "testflare"]
-  # allow: run this workflow manually from the Actions tab
   workflow_dispatch:
 
 env:
