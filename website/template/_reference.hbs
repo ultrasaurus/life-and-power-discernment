@@ -1,6 +1,5 @@
 
 {{> _navbar }}
-
 <div class="w3-container section-highlight">
     <!-- extra spacer for under header -->
 </div>
@@ -13,6 +12,10 @@
         {{/each}}
 
         <p style="text-align:center;font-size: 1.2rem"><b>{{intro-heading}}</b>{{intro-text}}</p>
+        {{#if author}}
+        <div class="author">by {{person author}}
+        </div>
+        {{/if}}
     </div>
 </div>
 

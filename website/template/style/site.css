@@ -132,6 +132,10 @@ nav.section a.w3-bar-item[active] {
 
 }
 
+.author {
+    margin: auto;
+    width: fit-content;
+}
 
 .section-highlight {
     padding: 64px 16px;
