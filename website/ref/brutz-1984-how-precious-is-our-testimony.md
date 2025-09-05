@@ -39,3 +39,5 @@ do you threaten to use a gun or knife on the other person?
 do you use a gun or a knife on the other person?
  
 I am continuing to analyze the LEYM data, and I am also pursuing a doctoral degree at Iowa State University to better equip myself to do further research. The LEYM research has helped me to focus on a broader research problem, the moral and spiritual developmental process of integrating pacifist principles. What is the process? How does the process influence family violence? How can individuals and families be helped in this process? The theoretical model for this research problem is still in its embryonic stage, but I hope to continue with its formulation and to be able to test it both within the Society of Friends and elsewhere.
+
+— [Friends Journal 1984, Issue 10](https://www.friendsjournal.org/wp-content/uploads/emember/downloads/1984/HC12-50764.pdf), pp8-8 (reprinted with permission)
