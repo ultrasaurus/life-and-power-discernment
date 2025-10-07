@@ -19,7 +19,7 @@ subject to agreement with the Friends Journal publication
 - [Wise as Serpents](policy/wise-as-serpents.pdf) 
   - is there a canoncial link?
   - if we use this, audio needs edit (at least trim silence at start)
-- Brittain YM?
+- Brittain YM [safeguarding](https://www.quaker.org.uk/our-organisation/safeguarding)
 
 ### Words
 - Quaker writings
