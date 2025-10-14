@@ -8,6 +8,13 @@ h6 {
     font-family: "Poppins", sans-serif
 }
 
+hr {
+    clear: both;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0
+}
+
 .w3-xxlarge-vw {
     font-size: 3.2vw;
 }
@@ -171,6 +178,10 @@ nav.section a.w3-bar-item[active] {
 }
 .section-light h3 {
     color: var(--highlight-dark);
+}
+.section-light h4 {
+    color: var(--highlight-dark);
+    font-weight: 700;
 }
 
 .section-light .highlight {
