@@ -306,6 +306,36 @@ strong {
     margin: auto;
 }
 
+.event h1 {
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.event .description {
+    margin: 4vw;
+}
+
+.event .date {
+    text-align: center;
+}
+/* custom sizes for medium screens */
+@media screen and (min-width: 601px) and (max-width: 860px) {
+    .event h1 {
+        font-size: 1.6rem;
+    }
+}
+
+/* custom sizes for small screens */
+@media screen and (max-width: 600px) {
+    .event h1 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .event .description {
+        margin: 3vw;
+     }
+}
+
 .reference h1 {
     text-align: center;
     font-size: 1.6rem;

@@ -1,0 +1,36 @@
+{{> _head}}
+
+<body class="event">
+    {{> _navbar }}
+                <div class="topspacer"></div>
+
+    <div class="w3-row">
+        <div class="w3-col m3" style="overflow: hidden">
+            <img src="{{hero}}" style="
+  width: 100%;      /* Makes the image the same width as its container */
+  height: auto;     /* Automatically adjusts the height to maintain the aspect ratio */
+  max-width: 100%;  /* Ensures the image doesn't render larger than its actual size if the container is larger */
+  display: block;   /* Optional: Removes extra white space found sometimes beneath images */
+">
+        <p class="date">{{date}}</p>
+        </div>
+        <div class="w3-col m9">
+            <div class="description">
+                {{#each (split title)}}
+                <h1>{{ this }}</h1>
+                {{/each}}
+
+                {{{ body }}}
+            </div>
+
+        </div>
+
+    </div>
+
+
+    {{> _footer}}
+
+
+</body>
+
+</html>
