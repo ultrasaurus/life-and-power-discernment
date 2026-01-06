@@ -1,0 +1,24 @@
+On November 8th 2025, Beacon Hill Friends House supported the Life and Power project in hosting a virtual workshop with
+16 Friends participating. The workshop was focused with the queries:
+
+>​*How do we face the reality of abuse, past and present, in community? What boundaries are important when engaging in
+this work?*
+
+>*​How do we support each other in practicing our peace testimony in our communities and our homes, interrupting harmful
+behavior as well as supporting healing and repair?*
+
+Our intent was to create the kind of environment that helped participants practice listening, building skills that they
+could take back to their communities and everyday interactions. We prepared, quite intentionally, for listening, and our
+experience affirmed our decision to create ample space for grounding.
+
+Worshipful conversation - spirit-led sharing - was introduced with the analogy of dropping a pebble into a pool of still
+water and waiting for the ripples to travel across the water, and settle back into stillness.
+
+The space between sharing suggested deep listening, and Friends reflected on sensitive topics including truth-telling
+amongst Friends; interpersonal aspects of the peace testimony juxtaposed with anti-war activism; the roles of victim,
+perpetrator and bystander; and themes of power, sexism, racism and privilege.
+
+We held a spiritually grounded space together, supporting the capacity for courageous listening and responding. Perhaps
+we have a greater sense of how to build communities with the ability to notice and interrupt abuse, and where survivors
+would find listening ears and support.
+
