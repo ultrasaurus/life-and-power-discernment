@@ -1,11 +1,3 @@
----
-title:  |
-    Reflections on Sexual Abuse Amongst Friends
-    Introduction
-author: New England Yearly Meeting
-layout: reference-meeting
----
-
 We hope that this document will help Friends Meetings respond to the needs of all our members and attenders, not just those struggling with sexual abuse. How can Friends be aware of the violence in our homes and bring our faith into practice?
 
 If we remain ignorant about how sexual abuse manifests itself, this violence will continue. As much as we encourage Meetings to learn the resources in your particular community, knowing about the resources is not enough. Friends must be able to recognize sexual abuse. If we aren't ready or don't want to see it, we won't see it.

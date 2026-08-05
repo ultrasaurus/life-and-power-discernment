@@ -1,11 +1,3 @@
----
-title:  |
-    Reflections on Sexual Abuse Amongst Friends
-    Sexual Abuse within a Religious Community
-author: New England Yearly Meeting
-layout: reference-meeting
----
-
 ## Questions
 
 > Have you examined your religious beliefs for the seeds of violence?

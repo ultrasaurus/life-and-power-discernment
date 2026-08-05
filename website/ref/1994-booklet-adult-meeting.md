@@ -1,11 +1,3 @@
----
-title:  |
-    Reflections on Sexual Abuse Amongst Friends
-    Sexual Abuse and Sexual Harassment of Adults — Responsibility of the Meeting
-author: New England Yearly Meeting
-layout: reference-meeting
----
-
 The purpose of this section is to recommend actions to be taken by the Meeting before any incident of sexual abuse or harassment has been brought to its attention.
 
 > **Questions:**

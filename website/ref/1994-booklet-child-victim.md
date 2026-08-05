@@ -1,11 +1,3 @@
----
-title:  |
-    Reflections on Sexual Abuse Amongst Friends
-    Incest and Sexual Abuse of Children — Responding to Victims
-author: New England Yearly Meeting
-layout: reference-meeting
----
-
 This section addresses the responsibility of the Meeting to respond to an incident of sexual abuse/incest of a Meeting child.
 
 > **Questions:**

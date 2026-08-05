@@ -1,11 +1,3 @@
----
-title:  |
-    Reflections on Sexual Abuse Amongst Friends
-    Incest and Sexual Abuse of Children — Responsibility of the Meeting for the Safety of Children
-author: New England Yearly Meeting
-layout: reference-meeting
----
-
 This section addresses the responsibility of the Meeting for the safety of Meeting children before any incident of sexual abuse occurs.
 
 > **Questions:**

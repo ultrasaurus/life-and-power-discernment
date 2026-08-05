@@ -1,11 +1,3 @@
----
-title:  |
-    Reflections on Sexual Abuse Amongst Friends
-    Sexual Abuse and Sexual Harassment of Adults — Responding to Victims
-author: New England Yearly Meeting
-layout: reference-meeting
----
-
 This section addresses the responsibility of the Meeting to minister to adult men and women who are currently being sexually abused or harassed or who are recalling incidents of childhood abuse.
 
 > **Questions:**

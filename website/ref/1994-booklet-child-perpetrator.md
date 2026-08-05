@@ -1,11 +1,3 @@
----
-title:  |
-    Reflections on Sexual Abuse Amongst Friends
-    Incest and Sexual Abuse of Children — Responding to Adult Perpetrators
-author: New England Yearly Meeting
-layout: reference-meeting
----
-
 This section addresses the responsibility of the Meeting to minister to a perpetrator of child sexual abuse/incest by a member.
 
 > **Questions:**
