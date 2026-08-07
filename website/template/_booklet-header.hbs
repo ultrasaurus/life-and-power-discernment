@@ -1,0 +1,20 @@
+<div class="booklet-header">
+    <div class="booklet-meta">
+        {{#if toc}}
+        <a href="{{toc}}" class="booklet-toc-link">
+            <i class="fa-solid fa-list"></i> {{series-title}}
+        </a>
+        {{else}}
+        <span class="booklet-toc-link">
+            <i class="fa-solid fa-list"></i> {{series-title}}
+        </span>
+        {{/if}}
+        {{#if series-position}}
+        <span class="booklet-position">{{series-position}}</span>
+        {{/if}}
+    </div>
+    {{#if section}}
+    <div class="booklet-section">{{section}}</div>
+    {{/if}}
+    <h1 class="booklet-title">{{title}}</h1>
+</div>
