@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Reflections on Sexual Abuse Amongst Friends</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style/w3.css">
+    <link rel="stylesheet" href="/style/site.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/v4-shims.min.css" />
+</head>
+<body class="booklet">
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top page-header">
+        <div class="w3-card" id="myNavbar" style="position:relative">
+            <div style="display:flex">
+                <a href="/" style="flex-shrink: 0">
+                    <img src="/images/life-and-power-logo-small.png" class="w3-left logo w3-image"/>
+                </a>
+                <div style="flex-shrink: 0">
+                    <a class="title" href="/">Life and Power</a><br />
+                    <a class="subtitle" href="/">Quaker Discernment on Abuse</a>
+                </div>
+                <!-- Right-sided navbar links -->
+                <div class="w3-hide-small nav-menu">
+                    <div style="margin-left: auto">
+                    <a href="/resources" class="w3-bar-item header-menu-item">Resources</a>
+                    <a href="/events" class="w3-bar-item header-menu-item">Events</a>
+                    </div>
+                    <div style="margin-left: auto">
+                    <a href="/about" class="w3-bar-item header-menu-item">About</a>
+                    <a href="/contact" class="w3-bar-item header-menu-item">Contact</a>
+                    </div>
+                </div>
+            
+                <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+                <a href="javascript:void(0)" style="position:absolute; right:2vw; top:3vw" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+                    onclick="w3_open()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        </div> <!-- myNavbar -->
+    </div> <!-- page-header -->
+    
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none"
+        id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+        <a href="" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+        <a href="/resources" onclick="w3_close()" class="w3-bar-item w3-button">Resources</a>
+        <a href="/events" onclick="w3_close()" class="w3-bar-item w3-button">Events</a>
+        <a href="/about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+        <a href="/contact" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
+    </nav>
+    <div class="topspacer"></div>
+
+    <div class="booklet-header">
+        <div class="booklet-meta">
+        <span class="booklet-toc-link">
+                <i class="fa-solid fa-list"></i> 
+            </span>
+    </div>
+    <h1 class="booklet-title">Reflections on Sexual Abuse Amongst Friends</h1>
+    </div>
+
+    
+    <div class="section-content section-light reference booklet-body">
+        <p>“Addressing Sexual Abuse in Friends Meetings” was written and compiled by the working party on sexual abuse of New
+England Yearly Meeting Ministry and Counsel and published by New England Yearly Meeting in 1994 as a print booklet.</p>
+<p>The preparation of these papers has been encouraged by the Committee on
+Ministry and Counsel of New England Yearly Meeting of Friends. This paper has
+been accepted as a working tool in Friends’ search for clarity and light as we face
+the reality of sexual abuse among us. It does not represent either our final or our
+corporate testimony.</p>
+<p>Contents</p>
+<ol>
+<li><a href="intro.html">Introduction</a></li>
+<li><a href="community.html">Sexual Abuse within a Religious Community</a></li>
+<li>Sexual Abuse and Sexual Harassment of Adults<br/>
+a. <a href="adult-meeting.html">Responsibility of the Meeting</a><br />
+b. <a href="adult-victim.html">Responding to victims</a><br />
+c. <a href="adult-perpetrator.html">Responding to perpetrators</a><br /></li>
+<li>Incest and Sexual Abuse of Children<br />
+a. <a href="child-meeting.html">Responsibility of the Meeting for the safety of children</a><br />
+b. <a href="child-victim.html">Responding to victims</a><br />
+c. <a href="child-perpetrator.html">Responding to adult perpetrators</a><br /></li>
+</ol>
+<hr />
+<p><em>The text on this page is reprinted with permission to use the material with the understanding that this is an
+adaptation of the 1994 booklet "Addressing Sexual Abuse in Friends Meetings", shared for reflection only,
+and that the new use does not reflect the position or endorsement
+of New England Yearly Meeting of Friends.</em></p>
+
+    </div>
+
+</body>
+
+<!-- Footer -->
+<footer class="w3-black" style="background-image: url('/images/life-and-power-logo-large.jpg');
+    background-position: 50% 22%;
+    /* Make the background image cover the area of the <div>, and clip the excess */
+    background-size: cover;">
+
+            <p>Logo by <a href="https://www.mandyford.co/">Mandy Ford</a> • Major support from <a href="https://www.odyssey-impact.org/">Odyssey Impact</a>, New England Yearly
+                Meeting, and Obadiah Brown’s Benevolent Fund.</p>
+
+</footer>
+
+<script>
+    // Modal Image Gallery
+    function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+    }
+
+
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+    var mySidebar = document.getElementById("mySidebar");
+
+    function w3_open() {
+        if (mySidebar.style.display === 'block') {
+            mySidebar.style.display = 'none';
+        } else {
+            mySidebar.style.display = 'block';
+        }
+    }
+
+    // Close the sidebar with the close button
+    function w3_close() {
+        mySidebar.style.display = "none";
+    }
+</script>
+</html>
