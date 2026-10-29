@@ -60,6 +60,22 @@ jobs:
           ls -R1 .pages
           echo "-------- Build website: done-------------"
 
+      # deploy to GitHub Pages (dev.lifeandpower.org), main only
+      - name: Setup Pages
+        if: github.ref_name == 'main'
+        uses: actions/configure-pages@v4
+
+      - name: Upload to pages artifact
+        if: github.ref_name == 'main'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./.pages/_website
+
+      - name: Deploy to GitHub Pages
+        if: github.ref_name == 'main'
+        id: deployment
+        uses: actions/deploy-pages@v4
+
       - name : Add SHORT_SHA Environment Variable
         id   : short-sha
         shell: bash      
