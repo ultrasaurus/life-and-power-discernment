@@ -65,11 +65,22 @@ jobs:
         if: github.ref_name == 'main'
         uses: actions/configure-pages@v4
 
+      # dev site should not be indexed
+      - name: Add robots.txt
+        if: github.ref_name == 'main'
+        run: |
+          printf 'User-agent: *\nDisallow: /\n' > .pages/_website/robots.txt
+
       - name: Upload to pages artifact
         if: github.ref_name == 'main'
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./.pages/_website
+
+      # keep robots.txt out of release/ (pages -> flare -> production)
+      - name: Remove robots.txt
+        if: github.ref_name == 'main'
+        run: rm -f .pages/_website/robots.txt
 
       - name: Deploy to GitHub Pages
         if: github.ref_name == 'main'
