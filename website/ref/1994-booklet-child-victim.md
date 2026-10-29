@@ -1,3 +1,6 @@
+---
+reader: Cornelia Parkes
+---
 This section addresses the responsibility of the Meeting to respond to an incident of sexual abuse/incest of a Meeting child.
 
 > **Questions:**

@@ -1,3 +1,6 @@
+---
+reader: Ellen N.
+---
 This section addresses the responsibility of the Meeting for the safety of Meeting children before any incident of sexual abuse occurs.
 
 > **Questions:**

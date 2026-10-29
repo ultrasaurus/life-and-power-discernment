@@ -1,3 +1,6 @@
+---
+reader: Susan Korgen
+---
 This section addresses the responsibility of the Meeting to minister to a member or attender who has perpetrated acts of sexual abuse or harassment on an adult.
 
 > **Questions:**

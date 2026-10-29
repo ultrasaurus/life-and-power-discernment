@@ -1,3 +1,6 @@
+---
+reader: Cornelia Parkes
+---
 This section addresses the responsibility of the Meeting to minister to a perpetrator of child sexual abuse/incest by a member.
 
 > **Questions:**
