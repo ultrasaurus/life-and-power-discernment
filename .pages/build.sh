@@ -5,8 +5,6 @@ mkdir -p $DEST
 
 SOURCE="website/source"
 
-cp .pages/_site.yaml $SOURCE/.
-
 BUILD_FILE="$SOURCE/build.md"
 echo $BUILD_FILE
 
